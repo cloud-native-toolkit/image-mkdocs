@@ -6,8 +6,6 @@ on:
 
 jobs:
   release:
-    needs:
-      - publish
     runs-on: ubuntu-latest
 
     steps:
